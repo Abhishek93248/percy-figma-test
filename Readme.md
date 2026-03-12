@@ -40,7 +40,7 @@ export PERCY_TOKEN=your_project_token_here
 
 To keep snapshots organized across feature branches or testing environments, use the `PERCY_BRANCH` environment variable.
 
-This prevents snapshots from overwriting the baseline of the main branch.
+this gives each branch a name
 
 Example:
 
@@ -82,9 +82,8 @@ This ensures Percy captures **only the relevant UI element**, making visual comp
 
 To compare live UI with design references:
 
-1. Export the required component or screen from **Figma as a PNG image**.
-2. Ensure the **PNG filename matches the `name` field in `snapshots.yml`**.
-3. Upload the design image to Percy.
+1. Export the required component or screen from **Figma export**.
+
 
 Matching snapshot names allows Percy to align the **design reference with the live UI snapshot** during review.
 

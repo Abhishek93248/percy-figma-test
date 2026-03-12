@@ -1,0 +1,17 @@
+[
+  {
+    "name": "BStack - Galaxy S20 Component",
+    "url": "https://bstackdemo.com/",
+    "scope": ".shelf-item[id='10']"
+  },
+  {
+    "name": "BStack - Apple Filter Checkmark",
+    "url": "https://bstackdemo.com/",
+    "scope": ".checkmark"
+  },
+  {
+    "name": "screenshot1",
+    "url": "https://bstackdemo.com/",
+    "waitForTimeout": 10000
+  }
+]

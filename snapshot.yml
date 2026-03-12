@@ -1,0 +1,18 @@
+# List of snapshots to be captured via Percy CLI
+- name: "BStack - Galaxy S20 Component"
+  url: "https://bstackdemo.com/"
+  # Scopes the snapshot to the specific product card ID provided
+  scope: ".shelf-item[id='10']" 
+
+- name: "BStack - Apple Filter Checkmark"
+  url: "https://bstackdemo.com/"
+  # Scopes the snapshot to the specific span element provided
+  scope: ".checkmark"
+
+- name: "screenshot2"
+  url: "https://bstackdemo.com/"
+  waitForTimeout: 10000
+
+- name: "screenshot1"
+  url: "https://miro.com/"
+  waitForTimeout: 10000

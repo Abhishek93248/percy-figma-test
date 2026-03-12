@@ -133,4 +133,26 @@ Maintaining the same name ensures **consistent comparison between the Figma desi
   url: "https://miro.com/"
   waitForTimeout: 10000
 ```
+# 6. Uploading  Images
 
+Percy allows uploading static images which can then be visually compared with snapshots.
+
+### Command
+
+```bash
+npx percy upload <dirname>
+```
+
+### Arguments
+
+| Argument | Description |
+|--------|-------------|
+| `<dirname>` | Directory containing images to upload |
+
+### Options
+
+| Option | Description |
+|------|-------------|
+| `-f, --files [pattern]` | One or more glob patterns matching image files to upload (default: `**/*.{png,jpg,jpeg}`) |
+| `-i, --ignore <pattern>` | One or more glob patterns matching image files to ignore |
+| `-e, --strip-extensions` | Removes file extensions from snapshot names |
